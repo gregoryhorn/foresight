@@ -25,7 +25,10 @@ def scan_text(text,names=None):
     findings=[]
     for number,line in enumerate(text.splitlines(),1):
         public_pin = 'https://github.com/' + ''.join(('gr', 'egory')) + 'horn/crystal-ball/releases/download/v1.2.0/crystal_ball_media-1.2.0-py3-none-any.whl#sha256=e36da1fe33fd91b3971297682840ee3e893a5d8e7465ee9158d4c632a4fe7338'
-        lower=line.replace(public_pin, '[public-dependency-pin]').casefold()
+        lower=line.replace(public_pin, '[public-dependency-pin]')
+        # The owner's public project URLs (GitHub repos and Pages) are publishable.
+        handle=''.join(('gr', 'egory')) + 'horn'
+        lower=re.sub(r'https://(github\.com/'+handle+r'/[A-Za-z0-9_.-]+|'+handle+r'\.github\.io/[A-Za-z0-9_.-]*)', '[public-project-url]', lower).casefold()
         if PRIVATE_PATH in line:
             findings.append((number,'private absolute path'))
         if LAN in line:

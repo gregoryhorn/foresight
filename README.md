@@ -1,12 +1,16 @@
 # Foresight
 
-Foresight uses Crystal Ball.
+**One sentence in. A little magic out.**
+*Crystal Ball sees. Foresight makes.*
 
-Foresight knows your tools and their tested limits. It is the extracted Director
-core from Motion Studio: passive inventory, data-only tool cards, one confirmed
-bounded local test, and retained media-check evidence. Foresight plans / knows
-your tools / makes; Crystal Ball sees / checks. Planning and making a complete
-movie are roadmap work, not capabilities of 0.1.0.
+Foresight learns the tools you already have, plans the video, gets it made, and
+lets [Crystal Ball](https://gregoryhorn.github.io/crystal-ball/) check every take.
+Crystal Ball 1.2 installs with it. Site: https://gregoryhorn.github.io/foresight/
+
+**In 0.1.0:** tool inventory, tool cards with one confirmed tiny test, and
+Crystal Ball checks that match the media (image, audio, video).
+**Next:** plan (script + scene plan + critic), make + assemble one MP4 with
+captions, polish. Goals, not promises or dates.
 
 ## Install and run
 
