@@ -41,4 +41,3 @@ class Mapping(Strict):
         if self.cost == 'zero' and self.seconds > 1:
             raise ValueError('Tiny test exceeds its bound')
         return self
-
