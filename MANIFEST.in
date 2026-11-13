@@ -1,0 +1,7 @@
+include README.md LICENSE CHANGELOG.md AGENTS.md pyproject.toml .gitignore
+recursive-include foresight *.py
+recursive-include tests *.py
+recursive-include scripts *.py
+recursive-include examples *.json
+recursive-include hermes_plugin *.py *.yaml
+recursive-include docs *.html *.md .nojekyll

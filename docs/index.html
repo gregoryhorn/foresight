@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Foresight knows your tools. Crystal Ball sees and checks your media.">
+<title>Foresight - Know the tools. Check the take.</title>
+<style>
+:root{color-scheme:dark;--bg:#0c0d17;--panel:#141625;--ink:#eff1ff;--muted:#b4b8d1;--line:#303448;--aqua:#8ee7df;--violet:#beadff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 system-ui,sans-serif}.wrap{max-width:1080px;margin:auto;padding:0 24px}nav{display:flex;justify-content:space-between;gap:20px;padding:24px 0;border-bottom:1px solid var(--line)}a{color:var(--aqua);text-underline-offset:5px}a:focus-visible{outline:3px solid var(--violet);outline-offset:5px}header{padding:80px 0 60px}.eyebrow{color:var(--aqua);letter-spacing:.13em;text-transform:uppercase;font-size:13px}h1{font-size:clamp(42px,7vw,78px);line-height:1.08;letter-spacing:-.06em;max-width:850px}h1 span{color:var(--violet)}.intro{color:var(--muted);max-width:650px;font-size:21px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}article,pre,.notice{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:24px}article p,footer{color:var(--muted)}section{padding:35px 0}pre{overflow:auto;font-size:14px}.notice{border-left:4px solid var(--aqua)}footer{padding:50px 0}.skip{position:absolute;left:-9999px}.skip:focus{left:20px}@media(max-width:700px){.grid{grid-template-columns:1fr}header{padding-top:40px}nav{flex-wrap:wrap}}
+</style></head><body><a class="skip" href="#main">Skip to content</a><div class="wrap">
+<nav aria-label="Main"><strong>Foresight</strong><div><a href="#tools">Tools</a> / <a href="#install">Install</a> / <a href="#roadmap">Roadmap</a></div></nav>
+<main id="main"><header><p class="eyebrow">Open source / 0.1.0 / MIT</p><h1>Know the tools.<br><span>Check the take.</span></h1><p class="intro">Foresight uses Crystal Ball. Foresight knows your tools and their tested limits. Crystal Ball sees and checks the media.</p><a href="#install">Start with your own tools</a></header>
+<section id="tools"><h2>From presence to evidence.</h2><div class="grid"><article><h3>Inventory</h3><p>Discover local tool presence without executing tools. Cached host metadata stays scoped; presence is not permission.</p></article><article><h3>Tool cards</h3><p>Keep data-only mappings and their limits. One disclosed, confirmed tiny test. Unknown delivery never means blind retry.</p></article><article><h3>Media checks</h3><p>Retain exact-byte evidence using Crystal Ball. Check images, audio and video with applicable rules and visible omissions.</p></article></div></section>
+<section id="install"><h2>A toolkit you can own.</h2><p>Python 3.11+, FFmpeg and ffprobe. From a local checkout:</p><pre>python -m venv .venv
+.venv/bin/python -m pip install .
+.venv/bin/foresight inventory
+.venv/bin/foresight card templates
+.venv/bin/foresight check ~/Media/example.mp4 --report-dir ~/Reports/example</pre><details><summary>Windows PowerShell</summary><pre>py -3.11 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install .
+.\.venv\Scripts\foresight.exe inventory</pre></details><p>The foresight Hermes tool exposes inventory, starter cards and media checks. It performs no automatic generation, installation or qualification.</p><p class="notice">Technical PASS is not creative approval. Missing senses remain visible. No provider configuration or model download is performed.</p></section>
+<section id="roadmap"><h2>The road ahead.</h2><ol><li>Plan: script + scene plan + critic.</li><li>Make + assemble MP4.</li><li>Polish.</li></ol><p>These are roadmap capabilities, not features of 0.1.0.</p></section></main><footer>Foresight / MIT. Local evidence, explicit effects. No external scripts, fonts or trackers.</footer></div></body></html>

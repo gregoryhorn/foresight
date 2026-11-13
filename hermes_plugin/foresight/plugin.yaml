@@ -1,0 +1,6 @@
+name: foresight
+version: "0.1.0"
+description: Tool knowledge and bounded media qualification using Crystal Ball
+license: MIT
+provides_tools: [foresight]
+provides_hooks: []
