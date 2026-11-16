@@ -71,8 +71,15 @@ successful upload response alone are not publication verification.
 Do NOT pin Foresight in Motion Studio until complete, working and tested on BOTH
 native Windows and Linux, including required host/UI qualification. Use only a
 release asset URL plus SHA256; a relative local wheel path is not distributable.
-As of this checklist, current-WIP Windows and real-host qualification/completion
-remain open; no new Foresight release or downstream pin is claimed here.
+The CF-FEA-r1 candidate has recorded passing native Linux and Windows source
+and installed-wheel suites, plus disposable-host lifecycle/removal evidence.
+The bounded CF-FEA-REVIEW-r1 conformance review is complete; see the local
+`docs/as-built/review.md` and its linked exact-candidate evidence. These results
+are not Studio UI/caller or real unfamiliar-tool qualification, hosted component
+CI, a published release or downstream pin. Those promotion gates remain open.
+Recheck exact candidate identities and owner completion before promotion rather
+than repeating missing-baseline claims or treating standalone review as release
+clearance.
 
 For a bad release, stop promotion and document an explicit known-good version.
 Have app-developer produce a new corrective version; do not overwrite assets,
